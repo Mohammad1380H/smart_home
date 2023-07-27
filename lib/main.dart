@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smart_home/route/name.dart';
 import 'package:smart_home/route/route.dart';
-import 'package:smart_home/view/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
