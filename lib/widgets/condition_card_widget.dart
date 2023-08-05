@@ -24,12 +24,13 @@ class ConditoinCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(
-      icon: Container(
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
         width: width,
         height: height,
         decoration: BoxDecoration(
-          borderRadius:BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(20),
             gradient: LinearGradient(
                 colors: gradient,
                 begin: Alignment.topLeft,
@@ -49,7 +50,6 @@ class ConditoinCard extends StatelessWidget {
           ],
         ),
       ),
-      onPressed: onTap,
     );
   }
 }

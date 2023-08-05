@@ -1,7 +1,11 @@
 abstract class Dimens {
   Dimens._();
-  static const vLarg = 20;
-  static const larg = 15;
-  static const medium = 10;
-  static const small = 5;
+  static const double vLarg = 20;
+  static const double larg = 15;
+  static const double medium = 10;
+  static const double small = 5;
+  static const double conditonCardDimens = 86;
+  static const double hundred = 100;
 }
+
+
