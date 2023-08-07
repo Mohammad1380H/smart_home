@@ -6,6 +6,7 @@ abstract class Dimens {
   static const double small = 5;
   static const double conditonCardDimens = 86;
   static const double hundred = 100;
+  static const double margin = 25;
 }
 
 

@@ -25,6 +25,9 @@ class Styles {
   static TextStyle normalLeftTime = const TextStyle(
       fontSize: 14, fontWeight: FontWeight.normal, color: Colors.blue);
 
+  static TextStyle normalText = const TextStyle(
+      fontSize: 14, fontWeight: FontWeight.normal, color: Colors.black);
+
   static TextStyle boldTempUnit = const TextStyle(
       fontSize: 19, fontWeight: FontWeight.bold, color: Colors.grey);
   static TextStyle boldDeviceName = const TextStyle(
